@@ -1,2 +1,0 @@
-# Practica
-Practica front
