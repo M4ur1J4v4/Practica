@@ -8,7 +8,7 @@ const apiKey = '682f849c';
 const searchQuery = 'movie';
 
 async function fetchData(page) {
-    const response = await fetch(`http://www.omdbapi.com/?s=${searchQuery}&apikey=${apiKey}&page=${page}`);
+    const response = await fetch(`https://www.omdbapi.com/?s=${searchQuery}&apikey=${apiKey}&page=${page}`);
     const data = await response.json();
     return data.Search;
 }
